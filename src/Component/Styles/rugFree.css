@@ -1,0 +1,63 @@
+.rug_fre_container{
+    background-image: url('../../Assets/Background\ 3\ -\ Rug\ Free.png');
+    background-repeat: no-repeat;
+    /* background-size: 600px 100%; */
+    /* position: relative; */
+    /* border: 2px saddlebrown solid; */
+}
+.rug_free_img_div{
+    position: relative;
+}
+.rugfree_bg{
+    /* position: absolute; */
+     left: 0px;
+}
+.rugfree_img{
+    position: relative;
+    z-index: 111;
+    left: 150px;
+    top: 40px;
+}
+.rug_fre_container{
+    display: flex;
+    justify-content: center;
+}
+.rug_free_intro_div{
+    width: 400px;
+    margin-top: 300px;
+}
+.rug_free_intro_div h1{
+    margin-top: 10px;
+    font-size: 3em;
+    color: #8528A6;
+}
+.rug_free_intro_div h5{
+    color: #1E96C8;
+}
+.rug_free_intro_div p{
+    margin-top: 15px;
+}
+.rug_free_intro_div button{
+    margin-top: 20px;
+}
+.audit_btn{
+    background: linear-gradient(74.3deg, #1E728C 7.4%, #21A4CE 87.89%);
+    padding: 8px 30px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.audit_btn:hover,
+.audit_btn:focus {
+  box-shadow: inset 10.5em 0 0 0 #215666;
+  transition: 3s;
+}
+.cosmica_read_btn:hover,
+.cosmica_read_btn:focus {
+  box-shadow: inset 10.5em 0 0 0 #b94ee0;
+  transition: 3s;
+}

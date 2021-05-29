@@ -1,0 +1,49 @@
+.partnetrs_container{
+    background-image: url('../../Assets/Background\ 5\ -\ Partners.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 50px;
+    height: max-content;
+    padding-bottom: 50px;
+}
+.partner_head_div{
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+.partner_head_div h1{
+    margin-top: 10px;
+    font-size: 3em;
+}
+.sqr_IMG{
+    /* position: absolute; */
+    /* margin-top: 50px;  */
+    position: relative;
+    top: 50px;
+    z-index: 000;
+   
+}
+.partner_card_div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 60%;
+    margin: 50px auto;
+}
+.p_card{
+    margin: 10px 20px;
+    color: white;
+}
+.p_card img{
+    width: 200px;
+}
+.p_card p{
+    width: 130px;
+    margin: 10px auto;
+    text-align: center;
+}
+.width{
+    width: 180px !important;
+}

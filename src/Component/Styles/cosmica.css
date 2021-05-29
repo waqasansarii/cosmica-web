@@ -1,0 +1,68 @@
+.cosmica_main_div{
+    background-image: url('../../Assets/Background\ 2\ -\ What\ is\ Cosmica.png');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    display: flex;
+    justify-content: center;
+}
+.cosmica_read_btn{
+    background: linear-gradient(87.78deg, #711093 -5.21%, #8528A6 52.88%, #AF23E0 93.39%);
+    padding: 9px 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: .9rem;
+}
+.cosmica_read_btn:hover,
+.cosmica_read_btn:focus {
+  box-shadow: inset 10.5em 0 0 0 #b94ee0;
+  transition: 3s;
+}
+.cosmica_intro_div{
+    margin-top: 200px;
+    width: 400px;
+    /* color: ; */
+}
+.cosmica_head1{
+    
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #1E96C8;
+letter-spacing: 0.1em;
+}
+.cosmica_intro_div h1{
+    font-family: Dosis;
+font-style: normal;
+font-weight: bold;
+font-size: 2.5em;
+line-height: 61px;
+/* identical to box height */
+color: #8528A6;
+
+letter-spacing: -0.02em;
+}
+.cosmica_intro_div p{
+    margin-top: 15px;
+}
+.cosmiaca_plane_div{
+    /* width: 100%; */
+    position: relative;
+    left: 0px;
+}
+.sm_pln{
+    position: absolute;
+    top: 80px;
+    left: -100px;
+}
+.lg_pln{
+    position: relative;
+    left: -200px;
+    top: 150px;
+}

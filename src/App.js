@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Faq from './Component/Faq';
+import Partners from './Component/Partners';
+import RoadMap from './Component/RoadMap';
+import RugFree from './Component/RugFree';
+import Tokonomics from './Component/Tokonomics';
+import TopBg from './Component/TopBg';
+import WhatIsCosmica from './Component/WhatIsCosmica';
+import Footer from './Layout/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <TopBg />
+      <WhatIsCosmica />
+      <RugFree />
+      <RoadMap />
+      <Tokonomics />
+      <Partners />
+      <Faq />
+      <Footer />
     </div>
   );
 }

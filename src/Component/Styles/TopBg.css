@@ -1,0 +1,146 @@
+.top_bg_container{
+    background-image: url('../../Assets/Background\ 1\ -\ Hero.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* padding-bottom: 100px; */
+}
+.top_bg_main_div{
+    display: flex;
+    justify-content: space-between;
+}
+.top_bg_hand_img_div{
+    position: relative;
+}
+
+.hand_img{
+
+    margin-top: -100px;
+}
+.top_bg_text_div{
+    margin-top: 200px;
+    color: white;
+    left: 100px;
+    z-index: 111;
+    position: relative;
+}
+.introducing{
+    font-size: 1.5em;
+}
+.cosmic_head{
+    font-size: 5em;
+    margin-top: 5px;
+}
+.top_img_para{
+    margin-top: 30px;
+    width: 320px;
+    font-size: 1.2em;
+}
+.buttons_div_top_bg{
+    margin-top: 50px;
+}
+.buttons_div_top_bg>button{
+    border: none;
+    outline: none;
+    background: #74D7F7; 
+    color: #711093;  
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin: 0px 5px;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.buttons_div_top_bg>button:hover,
+.buttons_div_top_bg>button:focus {
+  box-shadow: inset 10.5em 0 0 0 rgb(32, 178, 166);
+  transition: 3s;
+}
+
+@media screen and (max-width:1260px){
+    .hand_img{
+        width: 600px;
+        top: 0px;
+        z-index: 11;
+    }
+
+}
+@media screen and (max-width:1130px){
+    .top_bg_text_div{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:1090px){
+    
+    .hand_img{
+        width: 500px;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:970px){
+    .cosmic_head{
+        font-size: 3em;
+    }
+    .top_img_para{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .buttons_div_top_bg{
+        margin-top: 10px;
+    }
+    .top_bg_text_div{
+        left: 10px;
+    }
+    .hand_img{
+        width: 400px;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:875px){
+    .hand_img{
+        width: 300px;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:775px){
+    .hand_img{
+       display: none;
+    }
+    .top_bg_text_div{
+        margin: 50px;
+    }
+    .top_bg_container{
+        background-size: 100% auto;
+    }
+}
+@media screen and (max-width:650px){
+    .top_bg_container{
+        background-size: 100% 420px;
+    }
+}
+@media screen and (max-width:570px){
+    .top_bg_text_div{
+        margin: 30px 10px;
+    }
+    .cosmic_head{
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+    .introducing{
+        font-size: 1em;
+    }
+    .top_img_para{
+        font-size: .8rem;
+        margin-top: 10px;
+    }
+    .buttons_div_top_bg>button{
+        font-size: .7rem;
+        margin-top: 10px;
+        width: 200px;
+    }
+    .buttons_div_top_bg>button>img{
+        width: 20px;
+        margin-left: 5px;
+    }
+    .top_bg_container{
+        background-size: 100% 350px;
+    }
+}

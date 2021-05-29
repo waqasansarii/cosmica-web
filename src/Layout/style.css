@@ -1,0 +1,106 @@
+.nav_btn_cus{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background-color: #8528A6;
+    padding: 13px 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+.custom_nav{
+    position: sticky;
+    z-index: 1111;
+    top: 0px;
+}
+.nav-link{
+    padding: 10px 20px !important;
+    color: white !important;
+}
+.container-fluid{
+    padding-left: 100px !important;
+    padding-top: 10px;
+}
+
+
+/* footer  */
+
+.footer_main_div{
+  background-image: url('../Assets/Background\ 6\ -\ Footer\ CTA.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_mid_div{
+   text-align: center;
+   color: #8528A6;
+   font-weight: bold;
+}
+.copy_right_div{
+    background-image: url('../Assets/Background\ 7\ -\ Footer.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ft_logo_div,.follow_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ft_logo_div p{
+    color: white;
+    margin-left: 15px;
+}
+.follow_div >p{
+    font-size: 1.2em;
+    color: white;
+    margin-left: -20px;
+}
+.icons_ul{
+    width: 300px;
+    /* border: 2px solid red; */
+
+}
+.icons_ul>li>img {
+   /* margin: 0px 10px; */
+   margin-left: 20px;
+}
+
+@media screen and (max-width:1300px){
+    .container-fluid{
+        padding-left: 15px !important;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width:1193px){
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        position: absolute;
+        box-shadow: 0px 0px 5px gainsboro;
+        width: 100%;
+        margin: 0px;
+        z-index: 9999;
+        background: rgb(94, 54, 131);
+        margin-left: -15px;
+        padding-bottom: 20px;
+    }
+    
+}

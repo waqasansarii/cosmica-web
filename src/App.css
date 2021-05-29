@@ -1,3 +1,22 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+p,h1,h2,h3,h4,h5,h6,ul,li{
+  padding: 0px;
+  margin: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Dosis', sans-serif;
+}
+p,ul,li,ol,a,button{
+  font-family: 'Lato', sans-serif;
+}
+ul{
+  list-style: none;
+}
 .App {
   text-align: center;
 }

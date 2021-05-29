@@ -1,0 +1,188 @@
+.road_map_container{
+    background-image: url('../../Assets/Background\ 4\ -\ Roadmap.png');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding: 30px 0px;
+    width: 100%;
+    height: 430vh;
+    margin-top: -90px;
+}
+.road_map_main_div{
+    text-align: center;
+    color: white;
+    margin-top: 550px;
+}
+
+.road_map_stack {
+    width: 950px;
+    height: 100%;
+    margin: 0px auto;
+    margin-top: 100px;
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+.rms_box1 {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    height: max-content;
+    /* margin-top: 4rem; */
+}
+/* 2min bs imp call h */
+.rmb_box {
+    width: 250px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    border: 1px solid white;
+    padding: 20px 30px;
+    text-align: start;
+    border-radius: 10px;
+}
+.rmb_box h6{
+    color: #F8D131;
+    margin-top: 10px;
+}
+.planets_ul{
+    margin-top: 10px;
+}
+.planets_ul>li{
+    margin-top: 5px;
+}
+
+.rms1,.rms2 {
+    /* position: absolute; */
+    object-fit: contain;
+}
+
+.rms1 {
+    margin-left: -100px;
+    /* left: 100px; */
+    /* width: 250px; */
+}
+
+.rms2 {
+    /* right: 0;
+    top: 100px; */
+    margin-top: 2rem;
+    margin-left: -50px;
+}
+.rms3{
+    margin-left: -45px;
+    margin-top: -70px;
+    position: relative;
+    z-index: 111;
+}
+.box2{
+    margin-left: -30px;
+    position: relative;
+    z-index: 0;
+    margin-top: -70px;
+}
+.rms_box2 {
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+    top: 22rem;
+    right: -100px;
+    position: absolute;
+}
+.rms_box3{
+    width: 800px;
+    display: flex;
+    align-items: flex-start;
+    top: 32rem;
+    /* right: -100px; */
+    position: absolute;
+}
+.rmd_d2{
+    margin-top: -40px;
+    margin-left: -120px;
+}
+.rms4{
+    position: relative;
+    left: -80px;
+    top: 50px;
+    z-index: 111;
+}
+.box3{
+    position: relative;
+    top: 30px;
+    left: -25px;
+    width: 270px !important;
+    /* border: 2px solid red; */
+    z-index: 00;
+
+}
+.rms_box4{
+    width: 950px;
+    display: flex;
+    align-items: flex-start;
+    top: 50rem;
+    /* right: -100px; */
+    position: absolute;
+}
+.rmd_d3{
+    position: relative;
+    left: 250px;
+    top: -50px;
+}
+.rms5{
+    position: relative;
+    top: 120px;
+    left: 20px;
+    z-index: 111;
+}
+.box4{
+    margin-top: 40px;
+}
+.rms_box5{
+    width: 800px;
+    display: flex;
+    align-items: flex-start;
+    top: 65rem;
+    /* right: -100px; */
+    position: absolute;
+}
+.box5{
+    position: relative;
+    top: 100px;
+    left: -30px;
+}
+.rms6{
+    position: relative;
+    z-index: 111;
+    top: 120px;
+    left: -50px;
+}
+.rmd_d4{
+    position: relative;
+    top: 30px;
+    left: -70px;
+}
+.rms_box6{
+    width: 800px;
+    display: flex;
+    align-items: flex-start;
+    top: 80rem;
+    /* right: -100px; */
+    position: absolute;
+}
+.rmd_d5{
+
+    position: relative;
+    top: 80px;
+    left: 250px;
+}
+.rms7{
+    position: relative;
+    top: 250px;
+    left: 130px;
+    z-index: 111;
+}
+.box6{
+    position: relative;
+    top: 220px;
+    left: 100px;
+}
