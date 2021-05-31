@@ -29,15 +29,20 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
-    width: 60%;
+    width: 950px;
     margin: 50px auto;
 }
+.p_card:hover img {
+    transform:  scale(.9);
+    filter: blur(1px) brightness(80%);
+    transition: 2s;
+  }
 .p_card{
     margin: 10px 20px;
     color: white;
 }
 .p_card img{
-    width: 200px;
+    width: 250px;
 }
 .p_card p{
     width: 130px;

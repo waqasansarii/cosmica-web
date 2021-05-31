@@ -37,6 +37,8 @@
     padding: 20px 20px;
     margin: 10px auto;
     border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .faq_li>div{
     display: flex;
@@ -59,8 +61,22 @@
     font-weight: 500;
     padding: 20px 20px;
     border-radius: 10px;
+    transition: 2s;
 
 }
+/* @media (prefers-reduced-motion: no-preference) {
+    .more_data_div {
+      animation: App-logo-spin 1 2s linear;
+    }
+  }
+@keyframes App-logo-spin {
+    from {
+      transform: translateY('0px');
+    }
+    to {
+      transform: translateY('50px') ;
+    }
+  } */
 .more_data_div>div{
     display: flex;
     justify-content: space-between;

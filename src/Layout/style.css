@@ -49,11 +49,13 @@
 .copy_right_div{
     background-image: url('../Assets/Background\ 7\ -\ Footer.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% auto;
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 30px;
+    height: 20vh;
 }
 .ft_logo_div,.follow_div{
     display: flex;
@@ -78,6 +80,23 @@
 .icons_ul>li>img {
    /* margin: 0px 10px; */
    margin-left: 20px;
+}
+@media screen and (max-width:1920px){
+    .navbar-nav{
+        padding-left: 150px;
+    }
+}
+
+@media screen and (max-width:1520px){
+    .navbar-nav{
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width:1390px){
+    .navbar-nav{
+        padding-left: 10px;
+    }
 }
 
 @media screen and (max-width:1300px){

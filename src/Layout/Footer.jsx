@@ -1,4 +1,5 @@
 import React from 'react'
+import useWebAnimations, { shakeY } from "@wellyshen/use-web-animations";
 import rocket from '../Assets/Footer CTA Graphics - 1.png'
 import img2 from '../Assets/Footer CTA Graphics - 2.png'
 import beer from '../Assets/pancakeswap-cake-logo.png'
@@ -10,11 +11,34 @@ import dis from '../Assets/Icon - Discord.png'
 import rt from '../Assets/Icon - Reddit.png'
 
 const Footer = () => {
+    
+    const { keyframes, animationOptions } = shakeY;
+    const p1 = useWebAnimations({
+        keyframes,
+        animationOptions: {
+            ...animationOptions,
+            delay: 1000, // Delay 1s
+            duration: 30000, // Speed up the animation
+            iterations: Infinity,
+
+        },
+    });
+    const p2 = useWebAnimations({
+        keyframes,
+        animationOptions: {
+            ...animationOptions,
+            delay: 1000, // Delay 1s
+            duration: 30000, // Speed up the animation
+            iterations: Infinity,
+
+        },
+    });
+
     return (
         <div className='footer_container'>
             <div className="footer_main_div">
                 <div className="footer_content">
-                    <img src={rocket} alt="" />
+                    <img  src={rocket} alt="" />
                     <div className="footer_mid_div">
                         <h1>Join us and start enjoying our yields!</h1>
                         <div className="buttons_div_top_bg">
@@ -22,7 +46,7 @@ const Footer = () => {
                             <button>JOIN THE TELEGRAM <img src={telegram} alt="" /></button>
                         </div>
                     </div>
-                    <img src={img2} alt="" />
+                    <img  src={img2} alt="" />
                 </div>
             </div>
             <div className="copy_right_div">

@@ -36,7 +36,7 @@ const RugFree = () => {
             </div>
             <div className="rug_free_img_div">
                 {/* <img className='rugfree_bg' src={bgimg} alt="" /> */}
-                <img className='rugfree_img' ref={ref} src={rugfree} alt="" />
+                <img className='rugfree_img'  src={rugfree} alt="" />
             </div>
             
         </div>

@@ -20,7 +20,7 @@ const WhatIsCosmica = () => {
     return (
         <div className='cosmica_container'>
             <div className="cosmica_main_div">
-                <div className="cosmiaca_plane_div" ref={ref} >
+                <div className="cosmiaca_plane_div"  >
                     <img className='sm_pln' src={plane2} alt="" />
                     <img className='lg_pln' src={plane} alt="" />
                 </div>

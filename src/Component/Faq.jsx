@@ -1,10 +1,24 @@
 import React, { useState } from 'react'
+import useWebAnimations, { shakeY } from "@wellyshen/use-web-animations";
 import './Styles/faq.css'
 import faqimg from '../Assets/Image - FAQ Satellite.png'
 import more from '../Assets/FAQ - Button Default.png'
 import less from '../Assets/FAQ - Button Activated.png'
 import mData from '../Assets/Rectangle 134.png'
 const Faq = () => {
+
+    const { keyframes, animationOptions } = shakeY;
+    const p1 = useWebAnimations({
+        keyframes,
+        animationOptions: {
+            ...animationOptions,
+            delay: 1000, // Delay 1s
+            duration: 30000, // Speed up the animation
+            iterations: Infinity,
+
+        },
+    });
+
     let [show, setShow] = useState({ f: false, f1: false, f2: false, f3: false, f4: false, f5: false, f6: false })
 
     const handleOpen = (e) => {
@@ -19,13 +33,13 @@ const Faq = () => {
                             <h5>NEED TO KNOW MORE?</h5>
                             <h1 className='faq_head2' >FREQUENTLY ASKED <br /> QUESTIONS</h1>
                         </div>
-                        <img src={faqimg} alt="" />
+                        <img ref={p1.ref} src={faqimg} alt="" />
                     </div>
                 </div>
                 <div className="faq_div">
                     <ul className="faq_ul">
                         <li className={!show.f ? 'faq_li' : 'more_data_div'}>
-                            <div onClick={() => handleOpen('f')}>
+                            <div onClick={() => handleOpen('f')} >
                                 <p className={show.f ? 'active' : ''}>How do I buy Cosmica?</p>
                                 <img src={show.f ? less : more} alt="" />
                             </div>
